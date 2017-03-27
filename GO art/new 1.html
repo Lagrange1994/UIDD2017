@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+         <title>GO ART</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <link rel="stylesheet" type="text/css" href="main.css" />
+		 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		 
+    </head>
+
+    <body>
+	
+	
+	<style>
+	
+	  h1{
+	   font-size: 50px;
+	   font-weight: bold;
+      }
+	  
+	  h2{
+	   font-size: 36px;
+	   font-weight: bold;
+      }
+	
+	</style>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+
+  <div class="w3-bar w3-border w3-card-4 w3-white w3-padding-large">
+      <div class="w3-left">
+	    <img src="logo-01.png">
+	  </div>
+  
+      <div class="w3-left" style="margin-left:20px">
+        <a href="#Explore" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">Explore</a>
+        <a href="#page3" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">Start a Project</a>
+	    <a href="#About Us" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">About Us</a>
+      </div>
+  
+      <div class="w3-right">
+	    <input type="text" class="w3-bar-item w3-input w3-round-xlarge w3- w3-mobile" style="background-color:#dbdadb" placeholder="Search..">
+		<button class="w3-bar-item w3-button w3-white w3-mobile w3-hover-yellow" onclick="document.getElementById('login').style.display='block'">Log in</button>
+      </div>
+  
+  </div>
+	
+</div>
+ 
+ <div id="login" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top">
+
+        <span onclick="document.getElementById('login').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+          <form class="w3-container w3-card-4" >
+               <p class="w3-text-gray w3-center"></p>
+               <p>      
+               <label class="w3-text-black"><b>Username</b></label>
+               <input class="w3-input w3-border" name="first" type="text"></p>
+               <p>      
+               <label class="w3-text-black"><b>Passwords</b></label>
+               <input class="w3-input w3-border" name="last" type="text"></p>
+			   
+			   <div>                   
+                 <button class="w3-btn w3-yellow">Log In</button>			        
+                 <button class="w3-btn w3-white w3-text-gray">Forgot your password?</button>
+			   </div>
+			   
+			   <p></p>
+          </form>
+
+    </div>
+  </div>
+  
+<!-- Page1 content -->
+<div class="w3-content" style="max-width:2000px;margin-top:40px" id="Home">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="dancer-01.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-black w3-padding-32 w3-hide-small" >
+      <h1>Let Your Color Shine</h1>
+	  <p><b></b></p>
+	  <a href="#page3" class="w3-btn w3-yellow w3-round-xlarge w3-padding-16" style="font-size:18px">View Project</a>
+    </div>
+
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="dancer-02.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small" >
+      <h1>Embrace Beauty and Art</h1>
+      <p><b></b></p> 
+      <button class="w3-btn w3-yellow w3-round-xlarge w3-padding-16" style="font-size:18px">View Project</button>	  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="dancer-03.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small" >
+      <h1>Embrace Beauty and Art</h1>
+      <p><b></b></p>   
+      <button class="w3-btn w3-yellow w3-round-xlarge w3-padding-16" style="font-size:18px">View Project</button>	  
+    </div>
+  </div>
+  
+  <div id="leftclick">
+	<input type="button">
+  </div>
+			 
+  <div id="rightclick">
+	<input type="button" src="right-01.png">
+  </div>
+  
+  
+</div>  
+  
+  
+<!-- Page2 Section -->
+  <div class="w3-white" id="Explore">
+     <div class="w3-container w3-content w3-padding-16" style="max-width:100%; max-height:100%">
+
+
+      <div class="w3-main w3-content w3-padding-16" style="max-width:80%; max-height:80%; margin-top:100px; font-size:18px">
+        <div class="w3-quarter w3-padding-16 w3-white" style="height:400px">
+          <img src="el migrage-01.png" alt="el migrage" style="width:80%; margin-left:10%" class="w3-hover-opacity">
+
+            <button class="w3-button w3-yellow w3-margin-bottom " style="width:80%; margin-left:10%; height:70px" onclick="document.getElementById('ElMigrageModal').style.display='block'">El Migrage</button>
+
+        </div>
+        <div class="w3-quarter w3-padding-16 w3-white" style="height:400px">
+          <img src="la gicanda-01.png" alt="la gicanda" style="width:80%; margin-left:10%" class="w3-hover-opacity">
+
+            <button class="w3-button w3-yellow w3-margin-bottom" style="width:80%; margin-left:10%; height:70px" onclick="document.getElementById('LaGicandaModal').style.display='block'">La Gicanda</button>
+
+        </div>
+        <div class="w3-quarter w3-padding-16 w3-white" style="height:400px">
+          <img src="tainan-01.png" alt="tainan" style="width:80%; margin-left:10%" class="w3-hover-opacity">
+
+            <button class="w3-button w3-yellow w3-margin-bottom" style="width:80%; margin-left:10%; height:70px" onclick="document.getElementById('TainanModal').style.display='block'">Tainan</button>
+
+        </div>
+		
+		<div class="w3-quarter w3-padding-16 w3-white" style="height:400px">
+          <img src="sand dancing-01.png" alt="tainan" style="width:80%; margin-left:10%" class="w3-hover-opacity">
+
+            <button class="w3-button w3-yellow w3-margin-bottom" style="width:80%; margin-left:10%; height:70px" onclick="document.getElementById('SandDanceModal').style.display='block'">Sand Dance</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ElMigrageModal -->
+
+<div id="ElMigrageModal" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="el migrage-01.png" style="width:100%">
+    </div>
+</div>
+
+  <!-- LaGicandaModal -->
+
+<div id="LaGicandaModal" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="la gicanda-01.png" style="width:100%">
+    </div>
+</div>
+
+  
+  <!--page 3-->
+  <div class="w3-container w3-content w3-padding-16" style="max-width:100%; max-height:100%"id="page3">
+		<div style="margin-left:40px">
+		  <h2>VCU Dance Spring Senior Projects 2017</h2>
+          <a class="w3-text-gray">VCU Dance and Choreography seniors seeking support to present their capstone projects in a formal concert.</a>
+		</div>	   
+			   <div style="margin-left:40px; margin-top:50px; width:650px">
+                 <img src="project-01.png" class="w3-hover-opacity">
+			   </div>
+			   
+			  <div id="progress">
+			          <progress value="8" max="10"></progress>
+					       <div class="protitle">
+			                   <h2>$ 10,239</h2>
+					           <a>Support</a>
+					       </div>
+					       <div class="protitle"> 
+					           <h2>2</h2>
+					           <a>Graphic Designer</a>
+						   </div>
+						   <div class="protitle">
+						       <h2>1</h2>
+					           <a>Space</a>
+						   </div>
+					  <input type="button" value="Back Project">
+			   </div>
+		</div>
+		<!--page 3 end-->
+ 
+  
+    <script>
+  
+      // Automatic Slideshow - change image every 4 seconds
+      var myIndex = 0;
+          carousel();
+
+      function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 4000);    
+      }
+
+    </script>
+
+
+    </body>
+
+</html>
